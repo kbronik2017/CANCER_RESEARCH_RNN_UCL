@@ -1,4 +1,13 @@
 # Machine learning algorithms to analyze serial multi-dimensional data to predict prostate cancer progression
+
+
+<br>
+ <img height="510" src="images/Bidirectional_LSTM-RNN.jpg"/>
+</br>
+
+
+
+
 # Running the Python codes! 
 
 First, user needs to install Anaconda https://www.anaconda.com/
