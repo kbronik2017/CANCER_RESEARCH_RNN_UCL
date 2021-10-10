@@ -4,7 +4,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/kbronik2017/Machine_Learning_Cancer_Research_UCL)](https://github.com/kbronik2017/Machine_Learning_Cancer_Research_UCL/stargazers)
 [![GitHub license](https://img.shields.io/github/license/kbronik2017/Machine_Learning_Cancer_Research_UCL)](https://github.com/kbronik2017/Machine_Learning_Cancer_Research_UCL/blob/master/LICENSE)
 
-# Machine learning algorithms to analyze serial multi-dimensional data to predict prostate cancer progression
+# Machine learning and Artificial Intelligence for time series analysis
 
 
 # Table of contents
@@ -22,7 +22,7 @@
 
 ## Introduction <a name="introduction"></a>
 
-introduction
+Machine learning algorithms to analyze serial multi-dimensional data to predict prostate cancer progression
 
 ## RNN <a name="paragraph1"></a>
 
@@ -32,7 +32,24 @@ introduction
 </br>
 
 ## Plot_ElasticNet <a name="paragraph2"></a>
-The second paragraph text
+https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.ElasticNet.html
+
+Linear regression with combined L1 and L2 priors as regularizer.
+
+Minimizes the objective function:
+
+1 / (2 * n_samples) * ||y - Xw||^2_2
++ alpha * l1_ratio * ||w||_1
++ 0.5 * alpha * (1 - l1_ratio) * ||w||^2_2
+If you are interested in controlling the L1 and L2 penalty separately, keep in mind that this is equivalent to:
+
+a * ||w||_1 + 0.5 * b * ||w||_2^2
+where:
+
+alpha = a + b and l1_ratio = a / (a + b)
+The parameter l1_ratio corresponds to alpha in the glmnet R package while alpha corresponds to the lambda parameter in glmnet. Specifically, l1_ratio = 1 is the lasso penalty. Currently, l1_ratio <= 0.01 is not reliable, unless you supply your own sequence of alpha.
+
+
 ## Plot_Lasso <a name="paragraph3"></a>
 The second paragraph text
 ## Plot_LogisticRegression <a name="paragraph4"></a>
