@@ -79,7 +79,7 @@ https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestC
 A random forest is a meta estimator that fits a number of decision tree classifiers on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting. The sub-sample size is controlled with the max_samples parameter if bootstrap=True (default), otherwise the whole dataset is used to build each tree.
 
 ## Plot_Lowess <a name="paragraph6"></a>
-locally weighted scatterplot smoothing (examples outputs for each inputs, ADC or T2w):
+Locally weighted scatterplot smoothing (example output for each inputs, ADC or T2w):
 <br>
  <img height="270" src="Plot_Lowess/ADC_plots/example_ADC.png"/> <img height="270" src="Plot_Lowess/T2W_plots/example_T2w.png"/>
 </br>
