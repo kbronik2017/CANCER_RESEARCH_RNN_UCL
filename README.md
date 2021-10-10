@@ -32,6 +32,7 @@ Machine learning algorithms to analyze serial multi-dimensional data to predict 
 </br>
 
 ## Plot_ElasticNet <a name="paragraph2"></a>
+
 https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.ElasticNet.html
 
 Linear regression with combined L1 and L2 priors as regularizer.
@@ -51,14 +52,35 @@ The parameter l1_ratio corresponds to alpha in the glmnet R package while alpha 
 
 
 ## Plot_Lasso <a name="paragraph3"></a>
-The second paragraph text
-## Plot_LogisticRegression <a name="paragraph4"></a>
-The second paragraph text
-## Plot_RandomForestClassifier <a name="paragraph5"></a>
-The second paragraph text
-## Plot_Lowess <a name="paragraph6"></a>
-The second paragraph text
 
+https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Lasso.html
+
+Linear Model trained with L1 prior as regularizer (aka the Lasso).
+
+The optimization objective for Lasso is:
+
+(1 / (2 * n_samples)) * ||y - Xw||^2_2 + alpha * ||w||_1
+Technically the Lasso model is optimizing the same objective function as the Elastic Net with l1_ratio=1.0 (no L2 penalty).
+
+## Plot_LogisticRegression <a name="paragraph4"></a>
+
+https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html
+
+Logistic Regression (aka logit, MaxEnt) classifier.
+
+In the multiclass case, the training algorithm uses the one-vs-rest (OvR) scheme if the ‘multi_class’ option is set to ‘ovr’, and uses the cross-entropy loss if the ‘multi_class’ option is set to ‘multinomial’. (Currently the ‘multinomial’ option is supported only by the ‘lbfgs’, ‘sag’, ‘saga’ and ‘newton-cg’ solvers.)
+
+## Plot_RandomForestClassifier <a name="paragraph5"></a>
+
+https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
+
+A random forest is a meta estimator that fits a number of decision tree classifiers on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting. The sub-sample size is controlled with the max_samples parameter if bootstrap=True (default), otherwise the whole dataset is used to build each tree.
+
+## Plot_Lowess <a name="paragraph6"></a>
+locally weighted scatterplot smoothing
+<br>
+ <img height="240" src="Plot_Lowess/ADC_plots/example_ADC.png"/> <img height="240" src="Plot_Lowess/T2W_plots/example_T2w.png"/>
+</br>
 
 ## Running the Python codes!<a name="paragraph7"></a> 
 
