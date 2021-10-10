@@ -11,12 +11,14 @@
 1. [Introduction](#introduction)
 2. [RNN](#paragraph1)
     1. [Bidirectional LSTM-RNN](#subparagraph1)
+    2. [LSTM-RNN](#subparagraph2)
+    3. [GRU-RNN](#subparagraph3)
 3. [Plot_ElasticNet](#paragraph2)
 4. [Plot_Lasso](#paragraph3)
 5. [Plot_LogisticRegression](#paragraph4)
 6. [Plot_RandomForestClassifier](#paragraph5)
 7. [Plot_Lowess](#paragraph6)
-8. [Running the Python codes!](#paragraph7)
+8. [Running the python codes!](#paragraph7)
 
 ## Introduction <a name="introduction"></a>
 
@@ -28,6 +30,8 @@ Machine learning algorithms to analyze serial multi-dimensional data to predict 
 <br>
  <img height="540" src="images/Bidirectional_LSTM_RNN.jpg"/>
 </br>
+### LSTM-RNN <a name="subparagraph2"></a>
+### GRU-RNN <a name="subparagraph3"></a>
 
 ## Plot_ElasticNet <a name="paragraph2"></a>
 
@@ -80,7 +84,7 @@ locally weighted scatterplot smoothing (examples outputs for each inputs, ADC or
  <img height="270" src="Plot_Lowess/ADC_plots/example_ADC.png"/> <img height="270" src="Plot_Lowess/T2W_plots/example_T2w.png"/>
 </br>
 
-## Running the Python codes!<a name="paragraph7"></a> 
+## Running the python codes!<a name="paragraph7"></a> 
 
 First, user needs to install Anaconda https://www.anaconda.com/
 
