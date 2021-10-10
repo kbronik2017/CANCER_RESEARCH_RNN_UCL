@@ -2,7 +2,7 @@
 
 
 <br>
- <img height="510" src="images/Bidirectional_LSTM-RNN.jpg"/>
+ <img height="540" src="images/Bidirectional_LSTM_RNN.jpg"/>
 </br>
 
 
