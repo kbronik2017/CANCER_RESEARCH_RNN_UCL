@@ -34,11 +34,6 @@ and
 finally
 
 ```sh
-  - python  VAE_GUI.py
+  - python  (any of the above python code).py
 ``` 
 
-After lunching the graphical user interface, user will need to provide necessary information to start training/testing as follows:  
-
-<br>
- <img height="510" src="images/cover.jpg" />
-</br>
