@@ -16,8 +16,6 @@
 5. [Plot_LogisticRegression](#paragraph4)
 6. [Plot_RandomForestClassifier](#paragraph5)
 7. [Plot_Lowess](#paragraph6)
- 1. [ADC](#subparagraph6)
- 2. [T2W](#subparagraph6)
 8. [Running the Python codes!](#paragraph7)
 
 ## Introduction <a name="introduction"></a>
@@ -79,7 +77,7 @@ A random forest is a meta estimator that fits a number of decision tree classifi
 ## Plot_Lowess <a name="paragraph6"></a>
 locally weighted scatterplot smoothing
 <br>
- <img height="240" src="Plot_Lowess/ADC_plots/example_ADC.png"/> <img height="240" src="Plot_Lowess/T2W_plots/example_T2w.png"/>
+ <img height="340" src="Plot_Lowess/ADC_plots/example_ADC.png"/> <img height="340" src="Plot_Lowess/T2W_plots/example_T2w.png"/>
 </br>
 
 ## Running the Python codes!<a name="paragraph7"></a> 
