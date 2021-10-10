@@ -1,3 +1,9 @@
+
+[![GitHub issues](https://img.shields.io/github/issues/kbronik2017/Machine_Learning_Cancer_Research_UCL)](https://github.com/kbronik2017/Machine_Learning_Cancer_Research_UCL/issues)
+[![GitHub forks](https://img.shields.io/github/forks/kbronik2017/Machine_Learning_Cancer_Research_UCL)](https://github.com/kbronik2017/Machine_Learning_Cancer_Research_UCL/network)
+[![GitHub stars](https://img.shields.io/github/stars/kbronik2017/Machine_Learning_Cancer_Research_UCL)](https://github.com/kbronik2017/Machine_Learning_Cancer_Research_UCL/stargazers)
+[![GitHub license](https://img.shields.io/github/license/kbronik2017/Machine_Learning_Cancer_Research_UCL)](https://github.com/kbronik2017/Machine_Learning_Cancer_Research_UCL/blob/master/LICENSE)
+
 # Machine learning algorithms to analyze serial multi-dimensional data to predict prostate cancer progression
 
 
