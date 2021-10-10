@@ -31,7 +31,9 @@ Machine learning algorithms to analyze serial multi-dimensional data to predict 
  <img height="540" src="images/Bidirectional_LSTM_RNN.jpg"/>
 </br>
 ### LSTM-RNN <a name="subparagraph2"></a>
+-
 ### GRU-RNN <a name="subparagraph3"></a>
+-
 
 ## Plot_ElasticNet <a name="paragraph2"></a>
 
