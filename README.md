@@ -23,6 +23,9 @@
 ## Introduction <a name="introduction"></a>
 
 Machine learning algorithms to analyze serial multi-dimensional data to predict prostate cancer progression
+<br>
+ <img height="510" src="images/Pr.jpg"/>
+</br>
 
 ## RNN <a name="paragraph1"></a>
 
